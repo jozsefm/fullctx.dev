@@ -1,5 +1,4 @@
 ---
-import { Icon } from "astro-icon";
 import HeroImage from "~/components/hero-image.astro";
 
 const links = [
@@ -38,7 +37,6 @@ const links = [
           href={link.url}
         >
           <span class="sr-only">{link.description}</span>
-          <Icon class="h-full" name={link.icon} />
         </a>
       </li>
     ))}
